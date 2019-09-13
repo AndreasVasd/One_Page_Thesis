@@ -1,0 +1,159 @@
+body{
+	 font-family: 'Merienda';font-size: 15px;
+}
+
+
+.bg-light p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+.nav-item{
+	padding-right: 12px;
+	padding-left: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.nav-link.active{
+	color: orange!important;
+}
+
+
+.card-body{
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+  	-moz-transition: all 1s ease; /* Firefox */
+  	-o-transition: all 1s ease; /* IE 9 */
+  	-ms-transition: all 1s ease; /* Opera */
+  	transition: all 1s ease;
+}
+
+.card-body:hover{
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.card-img-top{
+	height: 200px;
+}
+
+/* Purchase button */
+a.btn.btn-primary.btn-lg {
+    margin-top: 200px;
+    padding: 15px;
+    /*font-size: 25px;*/
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFA33E;
+    border: none;
+}
+
+/* Responsive Purchase button */
+@media only screen and (max-width: 600px) {
+a.btn.btn-primary.btn-lg {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+  }
+}
+
+.carousel-caption{
+	top: 35%;
+    left: -25%;
+    font-size: 40px;
+}
+
+.carousel-caption h2 {
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+.carousel-caption {
+    top: 35%;
+    left: 5%;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+.carousel-caption h2 {
+    font-size: 25px;
+    }
+}
+
+.img-slider{
+	min-height: 320px;
+}
+
+.navMenu{
+	padding-top: 75px;
+	padding-bottom: 20px;
+}
+
+/* Cuisine section */
+.custom{
+    margin-top: 60px;
+}
+
+
+/* Contact Form */
+.probootstrap-form {
+  margin-bottom: 50px;
+}
+
+.probootstrap-form label {
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.probootstrap-form .form-control {
+  height: 46px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 14px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.probootstrap-form .form-control:active, .probootstrap-form .form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #FFA33E;
+}
+
+.probootstrap-form .form-group .form-field {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.probootstrap-form .form-group .form-field .icon {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 20px;
+}
+
+
+.probootstrap-form .form-group .form-field .form-control {
+  padding-right: 50px;
+}
+
+.probootstrap-form textarea.form-control {
+  height: inherit;
+  resize: vertical;
+}
+
+#c_submit.btn.btn-primary.btn-md {
+    background-color: #FFA33E;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
