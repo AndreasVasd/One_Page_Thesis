@@ -42,7 +42,8 @@ body{
 
 /* Purchase button */
 a.btn.btn-primary.btn-lg {
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-left: 410px;
     padding: 15px;
     /*font-size: 25px;*/
     font-family: 'Montserrat', sans-serif;
@@ -53,8 +54,8 @@ a.btn.btn-primary.btn-lg {
 /* Responsive Purchase button */
 @media only screen and (max-width: 600px) {
 a.btn.btn-primary.btn-lg {
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 10px;
     margin-left: 30px;
   }
 }
@@ -91,6 +92,12 @@ a.btn.btn-primary.btn-lg {
 	padding-top: 75px;
 	padding-bottom: 20px;
 }
+
+.navMenu1{
+	padding-top: 125px;
+	padding-bottom: 20px;
+}
+
 
 /* Cuisine section */
 .custom{
@@ -156,4 +163,5 @@ a.btn.btn-primary.btn-lg {
     padding-left: 25px;
     padding-right: 25px;
 }
+
 
